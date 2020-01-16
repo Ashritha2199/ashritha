@@ -27,7 +27,7 @@ if (mysqli_connect_errno())
           
       }else {
          echo "<center><h3 style='color:red';>Your Login Name or Password is invalid</h3></center>";
-         echo "<center><h3 style='color:blue';>Your Login Name or Password is invalid</h3></center>";
+         echo "<center><h3 style='color:green';>Your Login Name or Password is invalid</h3></center>";
       }
    }
     
